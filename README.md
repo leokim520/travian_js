@@ -37,6 +37,6 @@ function httpGetGithubCdnUri(user,project_name,branch,file_path)
     }
     return "https://cdn.rawgit.com/"+user+"/"+project_name+"/"+sha_data+"/"+file_path;
 }
-AddUriScript(httpGetGithubCdnUri("tqk2811","travian_js","master","travian_libs.js"));
+AddUriScript(httpGetGithubCdnUri("leokim520","travian_js","master","travian_libs.js"));
 ```
 
